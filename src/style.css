@@ -1,0 +1,63 @@
+#content {
+  height: 100%;
+}
+
+.home-container {
+  background-image: url('resturant.jpg');
+  height: 100%;
+  padding: 30px;
+  color: white;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs:hover {
+  cursor: pointer;
+}
+
+.tab {
+  padding: 20px;
+}
+
+.tab-selected{
+  background: green;
+  color: white;
+  font-weight: 700;
+}
+
+.home-container .home-page-paragraph {
+  padding: 10px;
+  background: rgba(20,20,30, .6);
+}
+
+.menu-container {
+  width: 70%;
+  margin: auto;
+}
+
+.menu-container .menu-item {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 10px auto;
+  padding: 5px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.menu-container .menu-item img {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.contact-us-container {
+  margin: auto;
+  margin-top: 20px;
+  width: 500px;
+  background: rgba(174, 174, 182, 0.409);
+  border-radius: 5px;
+  padding: 10px;
+}
