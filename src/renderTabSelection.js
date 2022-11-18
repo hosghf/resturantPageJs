@@ -1,4 +1,4 @@
-export default function manageTabSelection(content, pages) {
+export default function renderTabSelection(content, pages) {
   const tabs = document.querySelectorAll('.tab')
     
   tabs.forEach((tab) => {

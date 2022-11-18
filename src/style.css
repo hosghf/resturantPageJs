@@ -3,7 +3,7 @@
 }
 
 .home-container {
-  background-image: url('resturant.jpg');
+  background-image: url('./images/resturant.jpg');
   height: 100%;
   padding: 30px;
   color: white;

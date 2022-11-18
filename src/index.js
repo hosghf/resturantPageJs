@@ -1,7 +1,7 @@
-import createHomePage from './homePage.js'
-import manageTabSelection from './manageTabSelection'
-import createMenuPage from './menuPage'
-import createContactPage from './contactPage'
+import createHomePage from './pages/homePage.js'
+import createMenuPage from './pages/menuPage.js'
+import createContactPage from './pages/contactPage.js'
+import renderTabSelection from './renderTabSelection.js'
 import './style.css'
 
 const content = document.querySelector('#content')
@@ -11,4 +11,4 @@ const contactPage = createContactPage()
 
 content.appendChild(homePage)
 
-manageTabSelection(content, { homePage, menuPage, contactPage })
+renderTabSelection(content, { homePage, menuPage, contactPage })

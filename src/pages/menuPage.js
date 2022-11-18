@@ -4,19 +4,19 @@ export default function initMenuPage() {
       title: 'special pasta', 
       description: 'is is a greate our special pasta with delicious sos',
       price: '30$',
-      image: require('./menuImages/lazania.jpg')
+      image: require('../images/lazania.jpg')
     },
     {
       title: 'meat pizza', 
       description: 'this meat pizza is a greate berget with khardal sos',
       price: '25$',
-      image: require('./menuImages/pizza.jpg')
+      image: require('../images/pizza.jpg')
     },
     {
       title: 'meat berger', 
       description: 'this meat berger is a greate berget with khardal sos',
       price: '20$',
-      image: require('./menuImages/berger.jpg')
+      image: require('../images/berger.jpg')
     }
   ]
 
